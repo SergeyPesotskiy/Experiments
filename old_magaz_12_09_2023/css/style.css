@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #343434;
+    color: white;
+}
+a {
+    color: white;
+    padding: 5px;
+}
+.logo-header {
+    float: left;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 100%;
+}
+.logo-main {
+    float: left;
+    max-width: 100%;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+.logo-footer {
+    float: right;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.absolute-centr {
+    position: absolute;
+    margin: auto;
+    height: 100%;
+    width: 50%;
+    top: 0; left: 0; bottom: 0; right: 0;
+}

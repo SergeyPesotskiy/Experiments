@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        html {
+            /*            overflow: hidden;*/
+            background-image: url(./img/fon-sony-ps-1920x1080.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+        }
+
+        .logo-img {
+            height: 100px;
+            width: 100px;
+            border-radius: 45%;
+        }
+
+        .main-logo-img {
+            height: 300px;
+            width: 300px;
+            margin: 10px;
+            border-radius: 45%;
+            box-shadow: 0 14px 48px rgba(0, 0, 0, 0.25);
+        }
+
+        .flex {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .main {
+            flex-grow: 1;
+        }
+
+        .main-flex-row {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .footer {}
+
+        .link {
+            transition: .5s;
+        }
+
+        .link:hover {
+            transform: scale(1.1);
+        }
+
+        .font {
+            font-size: 8em;
+            text-align: center;
+        }
+
+        .font-main {
+            font-size: 3em;
+        }
+
+        .section {
+            padding: 5% 5% 5%;
+            text-align: center;
+            font-size: 2em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex">
+        <header>
+            <div class="font">ИгроСл<a href="#"><img class="logo-img link" src="./img/dendy.jpg" alt=""></a>ник</div>
+        </header>
+        <main class="main font-main">
+            <div class="main-flex-row">
+                <div>Обмен<img class="main-logo-img link" src="./img/06men-disk.jpg"></div>
+                <div><img class="main-logo-img link" src="./img/ps-3.png">Приставки</div>
+            </div>
+                <div class="main-flex-row">
+                    <div>Диски<img class="main-logo-img link" src="./img/disk.jpg"></div>
+                    <div><img class="main-logo-img link" src="./img/joy-3.png">Джойстики</div>
+                </div>
+        </main>
+            <section>
+                <div class="section">
+                    <h1>Хвалимсо</h1>
+                    <p>Я хотел бы поделиться своим восторгом от магазина Игрослоник.<br> Здесь можно найти самые новые игры для консолей и широкий выбор касет.<br> Магазин также предлагает различные джойстики и аксессуары.<br> Персонал всегда готов помочь и дать совет. Рекомендую всем посетить этот магазин!
+                    </p>
+                </div>
+            </section>
+        <footer>
+                <div class="font">РыжийПёсь Ж<a href="#"><img class="logo-img link" src="./img/sega.jpg" alt=""></a>рка</div>
+        </footer>
+    </div>
+</body></html>
